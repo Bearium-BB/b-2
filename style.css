@@ -1,9 +1,6 @@
 h1 {
-    text-align:center
+    text-align:center 
    }  
-   .iframe-container  {
-       text-align:center;
-   } 
    h1.one {
        border-style: groove;
        border-color:white; 
@@ -11,6 +8,9 @@ h1 {
        border-width: 20px;
        color: white;
    }
+   .iframe-container  {
+    text-align:center;
+} 
    iframe{
        border-style: groove;
        border-color:white; 
@@ -56,6 +56,13 @@ h1 {
         width: 15%;
       }
       
+    img{
+        border-color:white;
+        border-width: 15px;
+        border-style: groove;
+        background-color: #1f6f8b;
+        color: white;
+    }
     body {background-color:black;}
   
   
