@@ -1,96 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <body>
     <head>
-      <link rel="stylesheet" href="style.css">
-    </head>
-  <style>
-        div.relative {
-  position: relative;
-  left: 30%;
-  top: -0.3cm;
-  }
-  </style>
-  <h1 class="one">Unity game</h1>   
+        <title>Transforms</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #aa{
+                float: left;
+                width: 300px;
+                height:150px;
+                margin: 25px;
+                border: none;
+                display: inline;
+                padding: 0;
+                background-size: 300px 150px;
+                text-align: center;
+                position: relative;
+                background-color: white;
+            }
+            #aa:hover{  
+                transform: translate(10px,-10px); 
+                transition-duration: 1s;
+                opacity: 100;
+            }   
+            /*
+            #pa:hover {  
+                transform: translate(10px,51px); 
+                transition-duration: 1s;
+                opacity: 100;
+            }   
+            #pa{
+                opacity: 0;
+                text-align: center;
+                border: none;
+                width: 300px;
+                height:150px;
+                margin: 0px;
+                padding: 0;
+                display: inline-block;
+                color: aqua;
+                font-size: 20px;
+            }
+            */
+            .box{
+                background: grey;
+                height: 150px;
+                margin: 25px;
+                width: 300px;
+                float: left;
+                display: inline;
+            }   
+            .absolute{
+                position: absolute;
+                z-index: -1; 
+            } 
+            .CantSeeBox{
+                height: 150px;
+                margin: 25px;
+                width: 300px;
+                float: left;
+                display: inline;
+                
+            }
+            body {background-color: rgb(68, 68, 68);}
+      </style>
+  </head>
+    <body>
 
-  <div class="relative">
-    <table>  
-        <tr>
-          <th><a href="https://timelord200410.github.io/b-2/GamePage.html"><b>Game page</b></a></th>
-          <th><a href="https://github.com/timelord200410"><b>Github</b></a></th>
-          <th><a href="https://timelord200410.github.io/b-2/SignUp.html"><b>Game SignUp</b></a></th>
-        </tr>
-     </table>  
+      <nav>
+        <ul>
+    
+          <li>
+            <a id="NavA" href="index.html">Home page</a>
+          </li>
+    
+          <li>
+            <a id="NavA" href="GamePage.html">Game page</a>
+          </li>
+          
+          <li>
+            <a id="NavA" href="https://github.com/timelord200410">Github</a>
+          </li>
+    
+          <li>
+            <a id="NavA" href="SignUp.html">Game SignUp</a>
+          </li>
+    
+        </ul>
+    </nav>
+
+        <div class="CantSeeBox"><a style="background-image: url('Images/good main menu 1 (1).png');" id="aa" href="Unity-Game/call for the void/index.html"></a>
+            <div class="absolute"><div class="box"></div></div>
+      </div>
+
+        <div class="CantSeeBox"><a style="background-image: url('Images/New Piskel-1.png (1).png');" id="aa" href="Unity-Game/TimeGame/index.html"></a>
+          <div class="absolute"><div class="box"></div></div>
+      </div>
+
+       <div class="CantSeeBox"><a style="background-image: url('Images/thumbnail.png');" id="aa" href="Unity-Game/the bear game v.2/index.html"></a>
+          <div class="absolute"><div class="box"></div></div>
+      </div>
+
+          <div class="CantSeeBox"><a id="aa" href="Unity-Game/The Bear Game 3D/index.html">The Bear Game 3D</a>
+          <div class="absolute"><div class="box"></div></div>
+      </div>
+
+      <div class="CantSeeBox"><a id="aa" href="Unity-Game/TDG/index.html">TDG</a>
+        <div class="absolute"><div class="box"></div></div>
     </div>
 
-  <img src="Images\New Piskel-1.png (1).png" alt="Call for the voidc. come soon"style="width:150px;height:128px;"></br>
-  <a href="https://timelord200410.github.io/b-2/Unity-Game/TimeGame/index.html">Time game</a></br></br>
-  <ul>
-    <li>The game in development</li>
-    <li>The game just a testing.The testing for time in unity</li>
-    <li>Add more map soon</li>
-    <li>By Brett Bowley</li>
-  </ul>
-
-
-
-  <img src="Images\good main menu 1 (1).png" alt="Call for the voidc. come soon"style="width:150px;height:128px;"></br>
-  <a href="https://timelord200410.github.io/b-2/Unity-Game/call for the void/index.html">Call for the void</a></br></br>
-  <ul>
-    <li>This game not being work on</li>
-    <li>You player as bob and piam</li>
-    <li>N/A</li>
-    <li>By Brett Bowley and Hans Aguilar</li>
-  </ul>
-
-  <img src="Images\thumbnail.png" alt="Call for the voidc. come soon"style="width:150px;height:128px;"></br>
-  <a href="https://timelord200410.github.io/b-2/Unity-Game/the%20bear%20game%20v.2/index.html">The bear game</a></br></br>
-  <ul>
-    <li>Remake the Bear game not in progress</li>
-    <li>You play a guy</li>
-    <li>Remake not progress</li>
-    <li>By Brett Bowley</li>
-  </ul>
-
-  <p>This is just a test for a game here's a link if you want to see it is a tower defense.</p>
-  <a href="https://timelord200410.github.io/b-2/Unity-Game/TDG/index.html">TDG</a>
-  <ul>
-    <li>Trying TD game off. It work in progress</li>
-    <li>Ball come to kill you in the game </li>
-    <li>More tower are comeing soon</li>
-    <li>By Brett Bowley</li>
-  </ul>
-      <a href="https://timelord200410.github.io/b-2/Unity-Game/The%20Bear%20Game%203D/index.html">The The Bear Game 3D</a>
-    <ul> 
-     <li>By Brett Bowley</li>
-  </ul>
-  <table style="width: 100%">
-  <table>  
-    <tr>
-      <th>Game</th>
-      <th>How hard is the game</th>
-      <th>Game like be player</th>
-    </tr>
-    <tr>
-      <td>Bear game</td>
-      <td>%99.99</td>
-      <td>%100</td>
-    </tr>
-    <tr>
-      <td>TimeGame</td>
-      <td>%25</td>
-      <td>%85</td>
-    </tr>
-    <tr>
-      <td>Call for the void</td>
-      <td>%10</td>
-      <td>%80</td>
-    </tr>
-    <tr>
-      <td>TDG</td>
-      <td>%50</td>
-      <td>%70</td>
-    </tr>
-  </table>
-  </body>
+    </body>
 </html>
