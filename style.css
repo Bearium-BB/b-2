@@ -5,7 +5,7 @@ h1 {
        border-style: groove;
        border-color:white; 
        background-color: #1f6f8b;
-       border-width: 20px;
+       border-width: 10px;
        color: white;
        font-size: 64px;
        margin: 10px;
@@ -13,19 +13,19 @@ h1 {
    .iframe-container  {
     text-align:center;
   } 
-  /*For GamePage*/
-    #NavA:link, #NavA:visited {
-      background-color:#1f6f8b;
-      color: white;
-      padding: 14px 25px;
-      text-decoration: none;
-      display: inline-block;
-      border-style: groove;
-      border-color:white; 
-      background-color: #1f6f8b;
-      border-width: 10px;
-      color: white;
-      font-size: 24px;
+
+  #NavA:link, #NavA:visited {
+    background-color:#1f6f8b;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-color:white; 
+    background-color: #1f6f8b;
+    border-width: 5px;
+    color: white;
+    font-size: 24px;
    }
    #NavA:hover, #NavA:active {
     background-color: #164153;
@@ -43,9 +43,14 @@ h1 {
       text-align: center;
       display: inline;
   }
-    nav li{
-      display: inline;
-    }
+  nav li{
+    display: inline;
+  }
+  nav a{
+    font-family: sans-serif, Helvetica,Arial;
+    font-weight: bold;
+    text-transform:uppercase
+  }
     body {background-color: rgb(68, 68, 68);}
 
   
