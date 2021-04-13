@@ -4,31 +4,33 @@ h1 {
    h1.one {
        border-style: groove;
        border-color:white; 
-       background-color: #1f6f8b;
-       border-width: 10px;
+       background-color:#808080;
+       border-width: 5px;
        color: white;
        font-size: 64px;
        margin: 10px;
+       margin-bottom: 6px;
+       padding: 10px;
    }
    .iframe-container  {
     text-align:center;
   } 
 
   #NavA:link, #NavA:visited {
-    background-color:#1f6f8b;
+    background-color:#808080;
     color: white;
     padding: 14px 25px;
     text-decoration: none;
     display: inline-block;
     border-style: groove;
     border-color:white; 
-    background-color: #1f6f8b;
     border-width: 5px;
     color: white;
     font-size: 24px;
+    margin-bottom: 12px;
    }
    #NavA:hover, #NavA:active {
-    background-color: #164153;
+    background-color:#525252;
    }
   #pp{
   border-color:white;
@@ -43,6 +45,11 @@ h1 {
       text-align: center;
       display: inline;
   }
+
+  nav ul {
+    margin-top: 8px;
+  }
+
   nav li{
     display: inline;
   }
@@ -51,6 +58,6 @@ h1 {
     font-weight: bold;
     text-transform:uppercase
   }
-    body {background-color: rgb(68, 68, 68);}
+    body {background-color: #474A49;}
 
   
