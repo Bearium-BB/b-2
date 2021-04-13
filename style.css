@@ -11,9 +11,18 @@ h1 {
        margin: 10px;
        margin-bottom: 6px;
        padding: 10px;
+       font-family: sans-serif, Helvetica,Arial;
+       font-weight: bold;
+       text-transform:uppercase
    }
    .iframe-container  {
-    text-align:center;
+    position: relative;
+    border-style: groove;
+    border-color:white; 
+    border-width: 5px;
+    display: inline-block;
+    left: 25%;
+
   } 
 
   #NavA:link, #NavA:visited {
