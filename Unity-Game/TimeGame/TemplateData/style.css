@@ -16,3 +16,46 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+h1.one {
+    border-style: groove;
+    border-color:white; 
+    background-color: #1f6f8b;
+    border-width: 10px;
+    color: white;
+    font-size: 64px;
+    margin: 10px;
+    text-align: center;
+}
+
+#NavA:link, #NavA:visited {
+    background-color:#1f6f8b;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-color:white; 
+    background-color: #1f6f8b;
+    border-width: 5px;
+    color: white;
+    font-size: 24px;
+   }
+   #NavA:hover, #NavA:active {
+    background-color: #164153;
+   }
+   
+  nav{
+    text-align: center;
+    display: inline;
+  }
+  nav li{
+    display: inline;
+  }
+  nav a{
+    font-family: sans-serif, Helvetica,Arial;
+    font-weight: bold;
+    text-transform:uppercase
+  }
+    body {background-color: rgb(68, 68, 68);}
+
