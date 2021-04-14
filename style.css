@@ -5,25 +5,24 @@ h1 {
        border-style: groove;
        border-color:white; 
        background-color:#808080;
-       border-width: 5px;
+       border-width: 10px;
        color: white;
        font-size: 64px;
        margin: 10px;
-       margin-bottom: 6px;
-       padding: 10px;
-       font-family: sans-serif, Helvetica,Arial;
-       font-weight: bold;
-       text-transform:uppercase
    }
    .iframe-container  {
-    position: relative;
-    border-style: groove;
-    border-color:white; 
-    border-width: 5px;
-    display: inline-block;
-    left: 25%;
-
+    text-align:center;
   } 
+
+
+  #pp{
+  border-color:white;
+  border-width: 15px;
+  border-style: groove;
+  background-color: #808080;
+  color: white;
+  width: 15%;
+  }
 
   #NavA:link, #NavA:visited {
     background-color:#808080;
@@ -36,29 +35,15 @@ h1 {
     border-width: 5px;
     color: white;
     font-size: 24px;
-    margin-bottom: 12px;
    }
    #NavA:hover, #NavA:active {
-    background-color:#525252;
+    background-color: #525252;
    }
-  #pp{
-  border-color:white;
-  border-width: 15px;
-  border-style: groove;
-  background-color: #1f6f8b;
-  color: white;
-  width: 15%;
-  }
-
+   
   nav{
       text-align: center;
       display: inline;
   }
-
-  nav ul {
-    margin-top: 8px;
-  }
-
   nav li{
     display: inline;
   }
@@ -67,9 +52,6 @@ h1 {
     font-weight: bold;
     text-transform:uppercase
   }
-    body {
-      background-color: #474A49;
-
-    }
+    body {background-color: #474A49;}
 
   
