@@ -1,6 +1,4 @@
-h1 {
-    text-align:center 
-   }  
+
    h1.one {
        border-style: groove;
        border-color:white; 
@@ -9,12 +7,14 @@ h1 {
        color: white;
        font-size: 64px;
        margin: 10px;
+       font-family: sans-serif, Helvetica,Arial;
+       font-weight: bold;
+       text-align:center 
    }
+
    .iframe-container  {
     text-align:center;
   } 
-
-
   #pp{
   border-color:white;
   border-width: 15px;
@@ -39,7 +39,21 @@ h1 {
    #NavA:hover, #NavA:active {
     background-color: #525252;
    }
-   
+
+  #pp{
+  border-color:white;
+  border-width: 15px;
+  border-style: groove;
+  background-color: #1f6f8b;
+  color: white;
+  width: 15%;
+  }
+  .iframe-container  {
+    position: relative;
+    border-width: 5px;
+    margin: 0 auto;
+
+  } 
   nav{
       text-align: center;
       display: inline;

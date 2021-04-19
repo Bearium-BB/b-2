@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <title>SignUp</title>
       <meta charset="utf-8"/>
       <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+      <link rel="stylesheet" href="style.css">
     </head>
     <style>
+  #box{
+    width: 75%;
+    height: 500px;
+    background-color: #525252;
+    margin: 0 auto;
+    position: relative;
+    bottom: 150px;
+    z-index: -1;
+
+    
+  }
   label{
     border-color:white;
-    border-width: 15px;
+    border-width: 2px;
     border-style: groove;
-    background-color:#1f6f8b;
+    background-color:#808080;
     color: white;
   }
     input{
     border-color:white;
-    border-width: 15px;
+    border-width: 2px;
     border-style: groove;
-    background-color:#1f6f8b;
+    background-color:#808080;
     color: white;
+    }
+    .test{
+      text-align: center;
+      font-family: sans-serif, Helvetica,Arial;
     }
     </style>
     <body>
-        <h1>Sign Up Here</h1>
-        <nav>
-          <ul>
-            <li><a href="GamePage.html"><b>Game page</b></a>
-            </li>
-            <li><a href="https://github.com/timelord200410"><b>Github</b></a>
-            </li>
-            <li><a href="SignUp.html"><b>Game SignUp</b></a></li>
-          </ul>
+  
+      <h1 class="one">B Squared Zone</h1>
+      <nav>
+        <ul>
+
+          <li>
+            <a id="NavA" href="index.html">Home page</a>
+          </li>
+
+          <li>
+            <a id="NavA" href="GamePage.html">Game page</a>
+          </li>
+          
+          <li>
+            <a id="NavA" href="https://github.com/timelord200410">Github</a>
+          </li>
+
+          <li>
+            <a id="NavA" href="SignUp.html">Game SignUp</a>
+          </li>
+
+        </ul>
       </nav>
+      <div class="test">
         <form method="get">
             <label for="NameForGame">Name For Game:</label>
             <!--I want a user to enter the name of the game-->
             <input type="text" id="NameForGame" name="NameForGame" placeholder="Bob Here" size="50px" maxlength="75"><br/><br/>
             <!--I want to know if they made the 3D or 2D-->
             <label for="GameD">What D is you game:</label>
-            <input type="checkbox" id="GameD" name="GameD" value="D2">D2
-            <input type="checkbox" id="GameD" name="GameD" value="D3">D3
+            <input type="checkbox" id="GameD" name="GameD" value="D2">2D
+            <input type="checkbox" id="GameD" name="GameD" value="D3">3D
             <br/><br/>
             <!--Getting the games file as a zip-->
             <label for="GameFile">Game File:</label>
             <input type="file" id="GameFile" name="GameFile"><br/><br/>
             <input type="submit" value="Submit">
         </form>
+      </div>
+        <div id="box"></div>
     </body>
 </html>
