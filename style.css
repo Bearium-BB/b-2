@@ -10,12 +10,9 @@ h1 {
        font-size: 64px;
        margin: 10px;
    }
-<<<<<<< Updated upstream
    .iframe-container  {
     text-align:center;
   } 
-=======
->>>>>>> Stashed changes
 
 
   #pp{
@@ -42,27 +39,7 @@ h1 {
    #NavA:hover, #NavA:active {
     background-color: #525252;
    }
-<<<<<<< Updated upstream
    
-=======
-  #pp{
-  border-color:white;
-  border-width: 15px;
-  border-style: groove;
-  background-color: #1f6f8b;
-  color: white;
-  width: 15%;
-  }
-  .iframe-container  {
-    position: relative;
-    border-style: groove;
-    border-color:white; 
-    border-width: 5px;
-    display: inline-block;
-    left: 25%;
-
-  } 
->>>>>>> Stashed changes
   nav{
       text-align: center;
       display: inline;
