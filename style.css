@@ -1,71 +1,58 @@
 
-   h1.one {
-       border-style: groove;
-       border-color:white; 
-       background-color:#808080;
-       border-width: 10px;
-       color: white;
-       font-size: 64px;
-       margin: 10px;
-       font-family: sans-serif, Helvetica,Arial;
-       font-weight: bold;
-       text-align:center 
-   }
-
-   .iframe-container  {
-    text-align:center;
-  } 
-  #pp{
-  border-color:white;
-  border-width: 15px;
+/* this line of code is to stylize h1 */
+h1.one {
   border-style: groove;
-  background-color: #808080;
+  border-color:white; 
+  background-color:#808080;
+  border-width: 5px;
   color: white;
-  width: 15%;
-  }
+  font-size: 64px;
+  margin: 10px;
+  margin-bottom: 6px;
+  padding: 10px;
+  font-family: sans-serif, Helvetica,Arial;
+  font-weight: bold;
+  text-transform:uppercase;
+  text-align:  center;
+}
 
-  #NavA:link, #NavA:visited {
-    background-color:#808080;
-    color: white;
-    padding: 14px 25px;
-    text-decoration: none;
-    display: inline-block;
-    border-style: groove;
-    border-color:white; 
-    border-width: 5px;
-    color: white;
-    font-size: 24px;
-   }
-   #NavA:hover, #NavA:active {
-    background-color: #525252;
-   }
 
-  #pp{
-  border-color:white;
-  border-width: 15px;
+
+/*This is to Center Iframes */
+.iframe-container  {
+  text-align:center;
+} 
+/*This is Styling for the navbar*/
+#NavA:link, #NavA:visited {
+  background-color:#808080;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
   border-style: groove;
-  background-color: #1f6f8b;
+  border-color:white; 
+  border-width: 5px;
   color: white;
-  width: 15%;
-  }
-  .iframe-container  {
-    position: relative;
-    border-width: 5px;
-    margin: 0 auto;
+  font-size: 24px;
+}
 
-  } 
-  nav{
-      text-align: center;
-      display: inline;
-  }
-  nav li{
-    display: inline;
-  }
-  nav a{
-    font-family: sans-serif, Helvetica,Arial;
-    font-weight: bold;
-    text-transform:uppercase
-  }
-    body {background-color: #474A49;}
+/*when you have over the number or change color*/
+#NavA:hover, #NavA:active {
+  background-color: #525252;
+}
+/*The three nav tags Below this comment are setting up the font families and Century it */
+nav{
+  text-align: center;
+  display: inline;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  font-family: sans-serif, Helvetica,Arial;
+  font-weight: bold;
+  text-transform:uppercase
+}
+body {background-color: #474A49;}
 
   
