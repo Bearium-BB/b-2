@@ -40,7 +40,7 @@ h1.one {
 #NavA:hover, #NavA:active {
   background-color: #525252;
 }
-/*The three nav tags Below this comment are setting up the font families and Century it */
+/*The three nav tags Below this comment are setting up the font families and Century it*/
 nav{
   text-align: center;
   display: inline;
@@ -53,6 +53,7 @@ nav a{
   font-weight: bold;
   text-transform:uppercase
 }
+/*This sets a background color*/
 body {background-color: #474A49;}
 
   
