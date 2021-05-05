@@ -1,103 +1,85 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>GamePage</title>
+        <title>Home Page</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
         <link rel="stylesheet" href="style.css">
-        <style>
-            /*This is to set up the tag  so give me  shape give me my position giving them a back background 
-            and making them float to the left*/
-            #aa{
-                float: left;
-                width: 300px;
-                height:150px;
-                margin: 25px;
-                border: none;
-                display: inline;
-                padding: 0;
-                background-size: 300px 150px;
-                text-align: center;
-                position: relative;
-                background-color: white;
-            }
-            /*This makes whatever the ID is attached to move when hovered over*/
-            #aa:hover{  
-                transform: translate(10px,-10px); 
-                transition-duration: 1s;
-            }   
-            /*This makes a grey box*/
-            .box{
-                background:#808080;
-                height: 150px;
-                margin: 25px;
-                width: 300px;
-                float: left;
-                display: inline;
-            }   
-            .absolute{
-                position: absolute;
-                z-index: -1; 
-            } 
-            /*this invisible box makes it look like a grid system. it would look very weird*/
-            .CantSeeBox{
-                height: 150px;
-                margin: 25px;
-                width: 300px;
-                float: left;
-                display: inline;
-                
-            }
-      </style>
-  </head>
+    </head>
+    <style>
+        #gallery{
+            display: grid;
+
+            width: 100%;
+            height: 100%;
+            grid-row: repeat(auto-fit, minmax(150px, 0.2fr));
+            grid-template-rows: repeat(auto-fit, minmax(150px, 0.2fr));
+            grid-column: repeat(auto-fit, minmax(300px, 0.2fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 0.2fr));
+            gap: 25px;
+            justify-content: center;
+        }
+           
+        #gallery a, #gallery img {
+            width: 100%;
+            height: 100%;
+        }
+        #gallery img{
+            background-color: white;
+        }
+
+        #gallery a{
+            background-color: gray;s         
+        }
+        #aa:hover{  
+            transform: translate(10px,-10px); 
+            transition-duration: 1s;
+        }   
+    </style>
     <body>
-      <h1 class="one">B Squared Zone</h1>
-      <nav>
-        <ul>
-    
-          <li>
-            <a id="NavA" href="index.html">Home page</a>
-          </li>
-    
-          <li>
-            <a id="NavA" href="GamePage.html">Game page</a>
-          </li>
-          
-          <li>
-            <a id="NavA" href="https://github.com/timelord200410">Github</a>
-          </li>
-    
-          <li>
-            <a id="NavA" href="SignUp.html">Game SignUp</a>
-          </li>
-    
-        </ul>
-    </nav>
-
-        <div class="CantSeeBox"><a style="background-image: url('Images/good main menu 1 (1).png');" id="aa" href="Unity-Game/call for the void/callvoid.html"></a>
-            <div class="absolute"><div class="box"></div></div>
-      </div>
-
-        <div class="CantSeeBox"><a style="background-image: url('Images/New Piskel-1.png (1).png');" id="aa" href="Unity-Game/TimeGame/GameTime.html"></a>
-          <div class="absolute"><div class="box"></div></div>
-      </div>
-
-       <div class="CantSeeBox"><a style="background-image: url('Images/thumbnail.png');" id="aa" href="Unity-Game/the bear game v.2/GameBear.html"></a>
-          <div class="absolute"><div class="box"></div></div>
-      </div>
-
-          <div class="CantSeeBox"><a id="aa" href="Unity-Game/The Bear Game 3D/GameBear3D.html">The Bear Game 3D</a>
-          <div class="absolute"><div class="box"></div></div>
-      </div>
-
-      <div class="CantSeeBox"><a id="aa" href="Unity-Game/TDG/TGame.html">TDG</a>
-        <div class="absolute"><div class="box"></div></div>
-    </div>
+        <h1 class="one">B Squared Zone</h1>
+        <nav>
+            <ul>
   
-    <div class="CantSeeBox"><a id="aa" href="Unity-Game/NewGame/index.html">NewGame</a>
-      <div class="absolute"><div class="box"></div></div>
-  </div>
+              <li>
+                <a id="NavA" href="index.html">Home page</a>
+              </li>
+  
+              <li>
+                <a id="NavA" href="GamePage.html">Game page</a>
+              </li>
+              
+              <li>
+                <a id="NavA" href="https://github.com/timelord200410">Github</a>
+              </li>
+  
+              <li>
+                <a id="NavA" href="SignUp.html">Game SignUp</a>
+              </li>
+  
+            </ul>
+          </nav>
+            <div id="gallery">
+                <a href="Unity-Game/the bear game v.2/GameBear.html">
+                    <img id="aa" src="Images/thumbnail.png" alt="">
+                </a>
 
+                <a href="Unity-Game/call for the void/callvoid.html">
+                    <img id="aa" src="Images/good main menu 1 (1).png" alt="">
+                </a>
 
-    </body>
+                <a href="Unity-Game/TimeGame/GameTime.html">
+                    <img id="aa" src="Images/New Piskel-1.png (1).png">
+                </a>
+
+                <a href="Unity-Game/The Bear Game 3D/GameBear3D.html">
+                    <img id="aa" width="300" height="150" src="">
+                </a>
+
+                <a href="Unity-Game/TDG/TGame.html">
+                    <img id="aa" width="300" height="150"  src="">
+                </a>
+            </div>
+                    
+    </Body>
 </html>
