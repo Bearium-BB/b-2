@@ -41,13 +41,24 @@ h1.one {
   background-color: #525252;
 }
 /*The three nav tags Below this comment are setting up the font families and Century it*/
-nav{
-  text-align: center;
-  display: inline;
-  padding: 0px;
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  padding-top: 5px;
 }
-nav li{
-  display: inline;
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 5px;
 }
 nav a{
   font-family: sans-serif, Helvetica,Arial;
